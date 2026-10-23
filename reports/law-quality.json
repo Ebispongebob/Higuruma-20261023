@@ -1,0 +1,233 @@
+{
+  "source": {
+    "repository": "https://github.com/lttxzmj/chinese-law-corpus",
+    "commit": "6cdf25cfd7425b20e720b96a54f3840c69b9564f",
+    "file": "laws/labor-contract-law.json",
+    "sha256": "3fac85d82251229fbb729dd6c96ccd2a9d6d94db9e13b3fedcbd7f3ca7550510",
+    "license": "CC0-1.0",
+    "usage": "劳动合同演示 Agent 的规则来源；效果样例为程序构造，未经人工法律审核"
+  },
+  "scope": "从实际制度上传、规则确认、文件上传到真实本地模型与报告的全流程。期望分类为程序构造，未经人工法律审核。",
+  "passed": 12,
+  "total": 12,
+  "results": [
+    {
+      "id": "L01",
+      "article": 9,
+      "expected": "violation",
+      "status": "violation",
+      "method": "model",
+      "score": 0.934464680680252,
+      "probabilities": {
+        "compliant": 0.014525262818445616,
+        "violation": 0.934464680680252,
+        "insufficient": 0.03717747290126692,
+        "not_applicable": 0.013832583600035555
+      },
+      "citations_valid": true,
+      "audit_status": "completed",
+      "conclusion": "发现不符合项",
+      "seconds": 0.51,
+      "passed": true
+    },
+    {
+      "id": "L02",
+      "article": 9,
+      "expected": "compliant",
+      "status": "compliant",
+      "method": "model",
+      "score": 0.9009301770612927,
+      "probabilities": {
+        "compliant": 0.9009301770612927,
+        "violation": 0.03596575653483929,
+        "insufficient": 0.048765683096132564,
+        "not_applicable": 0.014338383307735385
+      },
+      "citations_valid": true,
+      "audit_status": "completed",
+      "conclusion": "在本次审核范围内符合",
+      "seconds": 0.5,
+      "passed": true
+    },
+    {
+      "id": "L03",
+      "article": 9,
+      "expected": "insufficient",
+      "status": "insufficient",
+      "method": "model",
+      "score": 0.6301301064477707,
+      "probabilities": {
+        "compliant": 0.03825540479044209,
+        "violation": 0.12026817006113072,
+        "insufficient": 0.6301301064477707,
+        "not_applicable": 0.2113463187006565
+      },
+      "citations_valid": true,
+      "audit_status": "completed",
+      "conclusion": "需人工复核",
+      "seconds": 0.51,
+      "passed": true
+    },
+    {
+      "id": "L04",
+      "article": 10,
+      "expected": "compliant",
+      "status": "compliant",
+      "method": "model",
+      "score": 0.8675583940486682,
+      "probabilities": {
+        "compliant": 0.8675583940486682,
+        "violation": 0.05360356990956773,
+        "insufficient": 0.04865463875551742,
+        "not_applicable": 0.0301833972862466
+      },
+      "citations_valid": true,
+      "audit_status": "completed",
+      "conclusion": "在本次审核范围内符合",
+      "seconds": 0.52,
+      "passed": true
+    },
+    {
+      "id": "L05",
+      "article": 10,
+      "expected": "violation",
+      "status": "violation",
+      "method": "model",
+      "score": 0.8253696200898568,
+      "probabilities": {
+        "compliant": 0.044802962198655344,
+        "violation": 0.8253696200898568,
+        "insufficient": 0.07301432418005253,
+        "not_applicable": 0.056813093531435294
+      },
+      "citations_valid": true,
+      "audit_status": "completed",
+      "conclusion": "发现不符合项",
+      "seconds": 0.5,
+      "passed": true
+    },
+    {
+      "id": "L06",
+      "article": 10,
+      "expected": "insufficient",
+      "status": "insufficient",
+      "method": "model",
+      "score": 0.7924419222230398,
+      "probabilities": {
+        "compliant": 0.04395727777486914,
+        "violation": 0.15386438477913095,
+        "insufficient": 0.7924419222230398,
+        "not_applicable": 0.009736415222960242
+      },
+      "citations_valid": true,
+      "audit_status": "completed",
+      "conclusion": "需人工复核",
+      "seconds": 0.5,
+      "passed": true
+    },
+    {
+      "id": "L07",
+      "article": 19,
+      "expected": "violation",
+      "status": "violation",
+      "method": "deterministic",
+      "score": null,
+      "probabilities": null,
+      "citations_valid": true,
+      "audit_status": "completed",
+      "conclusion": "发现不符合项",
+      "seconds": 0.19,
+      "passed": true
+    },
+    {
+      "id": "L08",
+      "article": 19,
+      "expected": "compliant",
+      "status": "compliant",
+      "method": "model",
+      "score": 0.805613227020538,
+      "probabilities": {
+        "compliant": 0.805613227020538,
+        "violation": 0.10503424964994057,
+        "insufficient": 0.05278382202812413,
+        "not_applicable": 0.036568701301397194
+      },
+      "citations_valid": true,
+      "audit_status": "completed",
+      "conclusion": "在本次审核范围内符合",
+      "seconds": 0.65,
+      "passed": true
+    },
+    {
+      "id": "L09",
+      "article": 19,
+      "expected": "violation",
+      "status": "violation",
+      "method": "deterministic",
+      "score": null,
+      "probabilities": null,
+      "citations_valid": true,
+      "audit_status": "completed",
+      "conclusion": "发现不符合项",
+      "seconds": 0.18,
+      "passed": true
+    },
+    {
+      "id": "L10",
+      "article": 25,
+      "expected": "violation",
+      "status": "violation",
+      "method": "model",
+      "score": 0.8812462830382932,
+      "probabilities": {
+        "compliant": 0.05736213800541558,
+        "violation": 0.8812462830382932,
+        "insufficient": 0.028011262670708973,
+        "not_applicable": 0.033380316285582294
+      },
+      "citations_valid": true,
+      "audit_status": "completed",
+      "conclusion": "发现不符合项",
+      "seconds": 0.5,
+      "passed": true
+    },
+    {
+      "id": "L11",
+      "article": 25,
+      "expected": "compliant",
+      "status": "compliant",
+      "method": "model",
+      "score": 0.8496849883090155,
+      "probabilities": {
+        "compliant": 0.8496849883090155,
+        "violation": 0.061590550345778636,
+        "insufficient": 0.07143729488391116,
+        "not_applicable": 0.017287166461294655
+      },
+      "citations_valid": true,
+      "audit_status": "completed",
+      "conclusion": "在本次审核范围内符合",
+      "seconds": 0.5,
+      "passed": true
+    },
+    {
+      "id": "L12",
+      "article": 25,
+      "expected": "insufficient",
+      "status": "insufficient",
+      "method": "model",
+      "score": 0.9082272387054986,
+      "probabilities": {
+        "compliant": 0.023419276555561183,
+        "violation": 0.05212141344095087,
+        "insufficient": 0.9082272387054986,
+        "not_applicable": 0.016232071297989273
+      },
+      "citations_valid": true,
+      "audit_status": "completed",
+      "conclusion": "需人工复核",
+      "seconds": 0.34,
+      "passed": true
+    }
+  ]
+}

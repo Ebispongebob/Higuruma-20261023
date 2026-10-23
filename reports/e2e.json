@@ -1,0 +1,92 @@
+{
+  "scope": "真实 HTTP 入口与本地 d1，不包含 Command Code 实测；样例为程序构造，不是独立人工法律验收",
+  "passed": 17,
+  "total": 17,
+  "results": [
+    {
+      "case": "T01 正常符合与真实原文引用",
+      "passed": true,
+      "seconds": 0.5
+    },
+    {
+      "case": "T02 明确违反",
+      "passed": true,
+      "seconds": 0.51
+    },
+    {
+      "case": "T03 证据不足",
+      "passed": true,
+      "seconds": 0.17
+    },
+    {
+      "case": "T04 必填缺失",
+      "passed": true,
+      "seconds": 0.5
+    },
+    {
+      "case": "T05 金额边界",
+      "passed": true,
+      "seconds": 0.88
+    },
+    {
+      "case": "T06 例外条件",
+      "passed": true,
+      "seconds": 0.72
+    },
+    {
+      "case": "T07 不适用与整体结论",
+      "passed": true,
+      "seconds": 0.2
+    },
+    {
+      "case": "T08 制度版本",
+      "passed": true,
+      "seconds": 0.2
+    },
+    {
+      "case": "T09 PDF 跨页与多问题",
+      "passed": true,
+      "seconds": 0.52
+    },
+    {
+      "case": "T10 正文附件证据冲突",
+      "passed": true,
+      "seconds": 0.19
+    },
+    {
+      "case": "T11 提示词注入",
+      "passed": true,
+      "seconds": 0.53
+    },
+    {
+      "case": "T12 解析异常不放行",
+      "passed": true,
+      "seconds": 0.01
+    },
+    {
+      "case": "T12 模型连接失败保留结果",
+      "passed": true,
+      "seconds": 0.36
+    },
+    {
+      "case": "DOCX 表格全流程",
+      "passed": true,
+      "seconds": 0.55
+    },
+    {
+      "case": "多 Agent 隔离和空规则保护",
+      "passed": true,
+      "seconds": 0.04
+    },
+    {
+      "case": "法律语料 Agent 与人工复核",
+      "passed": true,
+      "seconds": 13.44
+    },
+    {
+      "case": "Jev 配置与跨站写入保护（不调用 Jev）",
+      "passed": true,
+      "seconds": 0.01
+    }
+  ]
+}

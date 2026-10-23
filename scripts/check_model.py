@@ -20,6 +20,7 @@ async def main():
     print(json.dumps({'通过':report['passed'],'总数':len(rows),'平均耗时毫秒':round(statistics.mean(x.get('duration_ms',0) for x in results))},ensure_ascii=False))
     for r in results:
         if not r['passed']: print(r['id'],r.get('expected'),r.get('status'),r.get('error',''))
+    return 0 if report['passed'] == len(rows) else 1
 
 if __name__ == '__main__':
-    asyncio.run(main())
+    raise SystemExit(asyncio.run(main()))

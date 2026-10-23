@@ -1,0 +1,12 @@
+{
+  "scope": "真实 HTTP 入口与本地 d1，不包含 Command Code 实测；样例为程序构造，不是独立人工法律验收",
+  "passed": 1,
+  "total": 1,
+  "results": [
+    {
+      "case": "T12 真实模型超时",
+      "passed": true,
+      "seconds": 2.48
+    }
+  ]
+}

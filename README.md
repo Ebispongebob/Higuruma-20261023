@@ -58,10 +58,19 @@ HIGURUMA_DATA_DIR=.runtime/e2e uv run uvicorn app.main:app --host 127.0.0.1 --po
 
 ```sh
 uv run python tests/e2e/run.py
+uv run python tests/e2e/law_quality.py
 uv run python -m scripts.check_model
 ```
 
-结果写入 `reports/e2e.json`、`reports/legal-e2e.json` 和 `reports/model-check.json`。第二条命令单独检查模型对 20 组中文输入的原始表现，与完整审核流程的程序校验结果分开统计。
+业务和法律效果结果写入 `reports/e2e.json`、`reports/legal-e2e.json` 与 `reports/law-quality.json`；原始模型结果写入 `reports/model-check.json`。最后一条命令单独检查模型对 20 组中文输入的原始表现，与完整审核流程的程序校验结果分开统计。
+
+浏览器验证使用本机 Chrome 和 Playwright，连接上面启动的独立测试服务：
+
+```sh
+uv run python tests/e2e/browser.py
+```
+
+该检查通过页面执行完整操作，不模拟网络请求。结果写入 `reports/browser-e2e.json`，截图保存到 `artifacts/browser/`。本轮 11 项浏览器检查通过；已检查桌面和手机布局。
 
 当前样例是程序构造的演示材料，不是独立人工标注。原始模型检查存在错误，不能以业务流程测试通过代替模型效果验收。达到 milestone 中的 30 份文件、100 条独立人工标注和召回率要求，仍需实际材料与人工核对。
 

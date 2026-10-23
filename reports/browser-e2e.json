@@ -1,0 +1,52 @@
+{
+  "scope": "真实浏览器、后端与本地 d1；不拦截请求，未调用 Jev",
+  "passed": 11,
+  "total": 11,
+  "results": [
+    {
+      "case": "桌面首页与两个独立 Agent",
+      "passed": true
+    },
+    {
+      "case": "本地模型连接测试与密钥不回显",
+      "passed": true
+    },
+    {
+      "case": "法律示例真实审核与完整报告",
+      "passed": true
+    },
+    {
+      "case": "人工复核与历史回看",
+      "passed": true
+    },
+    {
+      "case": "新建 Agent 不继承其他规则和历史",
+      "passed": true
+    },
+    {
+      "case": "上传制度、关联原文、添加及确认规则",
+      "passed": true
+    },
+    {
+      "case": "自建 Agent 粘贴审核与历史隔离",
+      "passed": true
+    },
+    {
+      "case": "Jev 配置切换与保存（未调用 Jev）",
+      "passed": true
+    },
+    {
+      "case": "上传失败可见且允许再次操作",
+      "passed": true
+    },
+    {
+      "case": "手机首页、侧栏切换、规则窗口及表单草稿隔离",
+      "passed": true
+    },
+    {
+      "case": "全流程无页面脚本异常",
+      "passed": true
+    }
+  ],
+  "screenshots": "artifacts/browser"
+}
