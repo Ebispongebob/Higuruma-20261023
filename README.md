@@ -2,7 +2,9 @@
 
 创建多个审核 Agent，为每个 Agent 配置制度、规则和决策模型。上传文件后，系统遍历生效规则，保存逐条判定、原文引用和人工复核记录。
 
-## 本地运行
+## 快速启动
+
+发给Agent：帮我本地部署 https://github.com/Ebispongebob/Higuruma-20261023
 
 ```sh
 uv sync
@@ -79,3 +81,7 @@ uv run python tests/e2e/browser.py
 法律语料使用 [chinese-law-corpus](https://github.com/lttxzmj/chinese-law-corpus)，固定提交 `6cdf25cfd7425b20e720b96a54f3840c69b9564f`。原始文件、来源和校验摘要保存在 `fixtures/corpus/`。数据整理部分采用 CC0-1.0。数据集是非官方整理，不能将演示结论视为人工法律审查结果。
 
 接口依据：[Liquid AI d1](https://huggingface.co/LiquidAI/d1-3B-GGUF)、[Command Code Jev](https://commandcode.ai/models/jev)。
+
+## 开源协议
+
+项目代码采用 [MIT 协议](LICENSE)。法律语料的数据整理部分沿用 CC0-1.0，详见上方数据来源。
