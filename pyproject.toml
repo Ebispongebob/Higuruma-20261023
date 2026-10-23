@@ -1,0 +1,8 @@
+[project]
+name = "higuruma"
+version = "0.1.0"
+description = "可追溯的多 Agent 文件审核工作台"
+requires-python = ">=3.12"
+dependencies = ["fastapi>=0.115", "uvicorn>=0.34", "httpx>=0.28", "python-multipart>=0.0.20", "pypdf>=5", "python-docx>=1.1", "python-dotenv>=1"]
+[dependency-groups]
+dev = ["playwright>=1.50", "reportlab>=4"]

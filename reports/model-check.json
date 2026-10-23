@@ -1,0 +1,347 @@
+{
+  "dataset": "程序构造的采购调试样例，不是独立人工验收",
+  "passed": 10,
+  "total": 20,
+  "results": [
+    {
+      "id": "M01",
+      "expected": "compliant",
+      "status": "insufficient",
+      "raw_status": "compliant",
+      "score": 0.6341917732160117,
+      "probabilities": {
+        "compliant": 0.6341917732160117,
+        "violation": 0.05770806010814741,
+        "insufficient": 0.2725539410470287,
+        "not_applicable": 0.03554622562881224
+      },
+      "model": "LiquidAI/d1-3B-GGUF",
+      "duration_ms": 424,
+      "attempts": 1,
+      "passed": false
+    },
+    {
+      "id": "M02",
+      "expected": "violation",
+      "status": "violation",
+      "raw_status": "violation",
+      "score": 0.9814442281929507,
+      "probabilities": {
+        "compliant": 0.006561651031841765,
+        "violation": 0.9814442281929507,
+        "insufficient": 0.008377917389286189,
+        "not_applicable": 0.0036162033859211983
+      },
+      "model": "LiquidAI/d1-3B-GGUF",
+      "duration_ms": 275,
+      "attempts": 1,
+      "passed": true
+    },
+    {
+      "id": "M03",
+      "expected": "insufficient",
+      "status": "violation",
+      "raw_status": "violation",
+      "score": 0.744304912328345,
+      "probabilities": {
+        "compliant": 0.010151741351950551,
+        "violation": 0.744304912328345,
+        "insufficient": 0.2357791526345806,
+        "not_applicable": 0.009764193685123945
+      },
+      "model": "LiquidAI/d1-3B-GGUF",
+      "duration_ms": 273,
+      "attempts": 1,
+      "passed": false
+    },
+    {
+      "id": "M04",
+      "expected": "compliant",
+      "status": "compliant",
+      "raw_status": "compliant",
+      "score": 0.9047887649552571,
+      "probabilities": {
+        "compliant": 0.9047887649552571,
+        "violation": 0.06647420516129635,
+        "insufficient": 0.02436319688948995,
+        "not_applicable": 0.004373832993956487
+      },
+      "model": "LiquidAI/d1-3B-GGUF",
+      "duration_ms": 278,
+      "attempts": 1,
+      "passed": true
+    },
+    {
+      "id": "M05",
+      "expected": "compliant",
+      "status": "insufficient",
+      "raw_status": "compliant",
+      "score": 0.5883167685368073,
+      "probabilities": {
+        "compliant": 0.5883167685368073,
+        "violation": 0.06106087479574302,
+        "insufficient": 0.32163551867695367,
+        "not_applicable": 0.028986837990496145
+      },
+      "model": "LiquidAI/d1-3B-GGUF",
+      "duration_ms": 273,
+      "attempts": 1,
+      "passed": false
+    },
+    {
+      "id": "M06",
+      "expected": "violation",
+      "status": "violation",
+      "raw_status": "violation",
+      "score": 0.9791680054967296,
+      "probabilities": {
+        "compliant": 0.007356541782782523,
+        "violation": 0.9791680054967296,
+        "insufficient": 0.009499258788439057,
+        "not_applicable": 0.003976193932048892
+      },
+      "model": "LiquidAI/d1-3B-GGUF",
+      "duration_ms": 276,
+      "attempts": 1,
+      "passed": true
+    },
+    {
+      "id": "M07",
+      "expected": "insufficient",
+      "status": "violation",
+      "raw_status": "violation",
+      "score": 0.7846210926722682,
+      "probabilities": {
+        "compliant": 0.010320132903270406,
+        "violation": 0.7846210926722682,
+        "insufficient": 0.19503197609526635,
+        "not_applicable": 0.010026798329194913
+      },
+      "model": "LiquidAI/d1-3B-GGUF",
+      "duration_ms": 274,
+      "attempts": 1,
+      "passed": false
+    },
+    {
+      "id": "M08",
+      "expected": "compliant",
+      "status": "compliant",
+      "raw_status": "compliant",
+      "score": 0.9200442192336659,
+      "probabilities": {
+        "compliant": 0.9200442192336659,
+        "violation": 0.05682318899605666,
+        "insufficient": 0.019317432422033792,
+        "not_applicable": 0.0038151593482436863
+      },
+      "model": "LiquidAI/d1-3B-GGUF",
+      "duration_ms": 272,
+      "attempts": 1,
+      "passed": true
+    },
+    {
+      "id": "M09",
+      "expected": "compliant",
+      "status": "insufficient",
+      "raw_status": "compliant",
+      "score": 0.5791699974295256,
+      "probabilities": {
+        "compliant": 0.5791699974295256,
+        "violation": 0.06720408539166633,
+        "insufficient": 0.3235964060054067,
+        "not_applicable": 0.030029511173401368
+      },
+      "model": "LiquidAI/d1-3B-GGUF",
+      "duration_ms": 272,
+      "attempts": 1,
+      "passed": false
+    },
+    {
+      "id": "M10",
+      "expected": "violation",
+      "status": "violation",
+      "raw_status": "violation",
+      "score": 0.9778196614994735,
+      "probabilities": {
+        "compliant": 0.007719971485445933,
+        "violation": 0.9778196614994735,
+        "insufficient": 0.010283890379580595,
+        "not_applicable": 0.004176476635499775
+      },
+      "model": "LiquidAI/d1-3B-GGUF",
+      "duration_ms": 267,
+      "attempts": 1,
+      "passed": true
+    },
+    {
+      "id": "M11",
+      "expected": "insufficient",
+      "status": "violation",
+      "raw_status": "violation",
+      "score": 0.7786704403478764,
+      "probabilities": {
+        "compliant": 0.010581698872956041,
+        "violation": 0.7786704403478764,
+        "insufficient": 0.20014338109956345,
+        "not_applicable": 0.010604479679604104
+      },
+      "model": "LiquidAI/d1-3B-GGUF",
+      "duration_ms": 272,
+      "attempts": 1,
+      "passed": false
+    },
+    {
+      "id": "M12",
+      "expected": "compliant",
+      "status": "compliant",
+      "raw_status": "compliant",
+      "score": 0.9333879154128533,
+      "probabilities": {
+        "compliant": 0.9333879154128533,
+        "violation": 0.04580047761758139,
+        "insufficient": 0.01695285374165929,
+        "not_applicable": 0.003858753227906079
+      },
+      "model": "LiquidAI/d1-3B-GGUF",
+      "duration_ms": 273,
+      "attempts": 1,
+      "passed": true
+    },
+    {
+      "id": "M13",
+      "expected": "compliant",
+      "status": "insufficient",
+      "raw_status": "compliant",
+      "score": 0.5676751729213548,
+      "probabilities": {
+        "compliant": 0.5676751729213548,
+        "violation": 0.07052885779089087,
+        "insufficient": 0.3257193087967236,
+        "not_applicable": 0.03607666049103071
+      },
+      "model": "LiquidAI/d1-3B-GGUF",
+      "duration_ms": 268,
+      "attempts": 1,
+      "passed": false
+    },
+    {
+      "id": "M14",
+      "expected": "violation",
+      "status": "violation",
+      "raw_status": "violation",
+      "score": 0.9755405814448437,
+      "probabilities": {
+        "compliant": 0.008292097962803039,
+        "violation": 0.9755405814448437,
+        "insufficient": 0.011510220346009936,
+        "not_applicable": 0.004657100246343374
+      },
+      "model": "LiquidAI/d1-3B-GGUF",
+      "duration_ms": 287,
+      "attempts": 1,
+      "passed": true
+    },
+    {
+      "id": "M15",
+      "expected": "insufficient",
+      "status": "violation",
+      "raw_status": "violation",
+      "score": 0.7548710616937598,
+      "probabilities": {
+        "compliant": 0.010648890657885724,
+        "violation": 0.7548710616937598,
+        "insufficient": 0.221525050789607,
+        "not_applicable": 0.012954996858747445
+      },
+      "model": "LiquidAI/d1-3B-GGUF",
+      "duration_ms": 271,
+      "attempts": 1,
+      "passed": false
+    },
+    {
+      "id": "M16",
+      "expected": "compliant",
+      "status": "compliant",
+      "raw_status": "compliant",
+      "score": 0.937240234225636,
+      "probabilities": {
+        "compliant": 0.937240234225636,
+        "violation": 0.04169750740555028,
+        "insufficient": 0.01680740502419523,
+        "not_applicable": 0.0042548533446184825
+      },
+      "model": "LiquidAI/d1-3B-GGUF",
+      "duration_ms": 272,
+      "attempts": 1,
+      "passed": true
+    },
+    {
+      "id": "M17",
+      "expected": "compliant",
+      "status": "insufficient",
+      "raw_status": "compliant",
+      "score": 0.5883814372947084,
+      "probabilities": {
+        "compliant": 0.5883814372947084,
+        "violation": 0.07012278613408758,
+        "insufficient": 0.3038616804300202,
+        "not_applicable": 0.0376340961411838
+      },
+      "model": "LiquidAI/d1-3B-GGUF",
+      "duration_ms": 281,
+      "attempts": 1,
+      "passed": false
+    },
+    {
+      "id": "M18",
+      "expected": "violation",
+      "status": "violation",
+      "raw_status": "violation",
+      "score": 0.9741408782650818,
+      "probabilities": {
+        "compliant": 0.008632006188988942,
+        "violation": 0.9741408782650818,
+        "insufficient": 0.012238953657040254,
+        "not_applicable": 0.004988161888888941
+      },
+      "model": "LiquidAI/d1-3B-GGUF",
+      "duration_ms": 274,
+      "attempts": 1,
+      "passed": true
+    },
+    {
+      "id": "M19",
+      "expected": "insufficient",
+      "status": "violation",
+      "raw_status": "violation",
+      "score": 0.7600790907775758,
+      "probabilities": {
+        "compliant": 0.010461258650772621,
+        "violation": 0.7600790907775758,
+        "insufficient": 0.21746703945604332,
+        "not_applicable": 0.011992611115608108
+      },
+      "model": "LiquidAI/d1-3B-GGUF",
+      "duration_ms": 274,
+      "attempts": 1,
+      "passed": false
+    },
+    {
+      "id": "M20",
+      "expected": "compliant",
+      "status": "compliant",
+      "raw_status": "compliant",
+      "score": 0.9476589083446293,
+      "probabilities": {
+        "compliant": 0.9476589083446293,
+        "violation": 0.032815447099308184,
+        "insufficient": 0.015012476842450771,
+        "not_applicable": 0.004513167713611861
+      },
+      "model": "LiquidAI/d1-3B-GGUF",
+      "duration_ms": 275,
+      "attempts": 1,
+      "passed": true
+    }
+  ]
+}
