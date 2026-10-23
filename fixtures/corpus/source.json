@@ -1,0 +1,8 @@
+{
+  "repository": "https://github.com/lttxzmj/chinese-law-corpus",
+  "commit": "6cdf25cfd7425b20e720b96a54f3840c69b9564f",
+  "file": "laws/labor-contract-law.json",
+  "sha256": "3fac85d82251229fbb729dd6c96ccd2a9d6d94db9e13b3fedcbd7f3ca7550510",
+  "license": "CC0-1.0",
+  "usage": "劳动合同演示 Agent 的规则来源；效果样例为程序构造，未经人工法律审核"
+}
